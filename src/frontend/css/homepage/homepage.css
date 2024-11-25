@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font-family: "Josefin Sans", sans-serif;
+    --secondary-font-family: "Judson", serif;
+    ;
+}
+
+/* Header Section */
+header {
+    width: inherit;
+    height: 10vh;
+    background: #212F25;
+    display: flex;
+    align-items: center;
+    padding: 0vh 15vw;
+}
+
+header img {
+    width: 13vw;
+}
+
+/* greet-Container */
+
+.greet-container {
+
+    margin: 3vw 0vw;
+    color:#09160D;
+
+    display: flex;
+    padding: 0vh 22vw;
+    align-items: center;
+    justify-content: center;
+
+}
+.greet-container-left{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+}.greet-container-left img{
+    width: 10.5em;
+    height: 10.5em;
+    border-radius: 100%;
+}
+.got-Greeted-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+}
+.greet-hi-name{
+    font-family: var(--secondary-font-family);
+    font-size: 4em;
+    
+}
+.greet-kese-ho{
+    font-family: var(--main-font-family);
+    font-size:1.5em;
+    font-weight: 700;
+}
+
+.greet-container-right{
+    display: flex;
+    height: inherit;
+
+    width: 12vw;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.greet-container-right-emoji{
+font-size: 3.2em;
+/* margin-right: 0.2em; */
+
+    
+}
+.greet-container-right-days-count
+{
+font-family: var(--main-font-family);
+font-size: 1.5em;
+/* width: 20vw; */
+font-weight: 700;
+/* background-color: red; */
+
+}
+
+/* Calender Container */
+
+.calender-container{
+    width: 75vw;
+    display: flex;
+border-radius: 2.313em;
+    background-color: #FBFFE3;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    height: 11em;
+}
+.calender-days
+{
+    width: 4.25em;
+height: 8.18em;
+display: flex;
+
+flex-direction: column;
+margin: 0.3em 2em;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.calender-days-name{
+    font-family: "Kameron", serif;
+color: #4F4A4A;
+font-size: 1.25em;
+font-style: normal;
+}
+.calender-days-date{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 47.84px;
+    font-size: 2em;
+}
+.calender-days-emoji{
+    font-size:3.5em;
+}
+.calender-days-active{
+    background-color: #F3FFA8;
+    height: inherit;
+    border-radius:3em ;
+    width: 5.125em;
+}
+
+/* Highlights Container*/
+
+.highlights-container{
+    height: 30em;
+    display: flex;
+
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 2vw 0vw 0vw 0vw;
+    color:#09160D;
+    /* background-color: #4F4A4A; */
+
+    display: flex;
+    padding: 0vh 22vw;
+    justify-content: center;
+}
+.highlights-container-head{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    height: 3em;
+font-weight:500 ;
+color: #09160D;
+font-size: 2.25em;
+    font-style: normal;
+
+}
+.highlights-container-graph{
+    height: 25em;
+    padding: 1em 0em;
+    display: flex;
+align-items: center;
+justify-content: center;
+background-color: #CFF6CF;
+border-radius: 2.25em;
+    /* width: 50.938em; */
+}
+.highlights-container-graph-today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.highlights-container-graph-divider{
+    width: 0.2vw;
+    border-radius: 10vw;
+    background-color: #89AD8B;
+    height: 95%;
+}
+
+.highlights-container-graph-today-item{
+width: 25em;
+    height:18em ;
+    /* background-color: red;/ */
+    
+}
+
+
+.highlights-container-graph-today-name{
+    font-size: 1.5em;
+    font-family: "Jost", sans-serif;
+    color: #336141;
+}
+
+/* Today Container */
+
+.today-container{
+    height: 100vh;
+    display: flex;
+    padding: 0vh 22vw;
+    margin: 4em 0em 0em 0em;
+    flex-direction: column;
+}
+.today-container-head{
+    height: 10%;
+    font-family: "Jost", sans-serif;
+    font-size: 2.25em;
+    color: #09160D;
+}
+.today-container-items{
+    height: 90%;
+
+display: flex;
+flex-direction: column;
+
+}
+.today-container-item{
+    height: 19%;
+    margin: 0.5em 0em;
+    border-radius: 2.25em;
+    background-color:#D9D9D9;
+    
+}
